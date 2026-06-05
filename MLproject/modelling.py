@@ -7,8 +7,6 @@ import numpy as np
 import warnings
 import sys
 
-mlflow.set_tracking_uri("http://127.0.0.1:5000")
-
 if __name__ == "__main__":
     warnings.filterwarnings("ignore")
     np.random.seed(40)
