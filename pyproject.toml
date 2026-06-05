@@ -3,7 +3,7 @@ name = "credit-score-training"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12.11"
 dependencies = [
     "cloudpickle==3.1.2",
     "mlflow==3.12.0",
