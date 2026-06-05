@@ -1,4 +1,4 @@
-name: credit-scoring-model-integration
+name: latihan-cs-mlflow
 
 conda_env: conda.yaml
 
