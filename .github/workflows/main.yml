@@ -13,6 +13,7 @@ env:
   CSV_URL: "MLproject/train_pca.csv"
   TARGET_VAR: "Credit_Score"
   MLFLOW_TRACKING_URI: "file:./mlruns"
+  MLFLOW_ALLOW_FILE_STORE: true
 
 jobs:
   build:
