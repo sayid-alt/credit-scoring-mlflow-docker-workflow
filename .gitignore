@@ -1,5 +1,5 @@
 
-/mlflow-dockerfile
+/mlflow-dockerfile/*
 /mlartifacts
 
 __pycache__

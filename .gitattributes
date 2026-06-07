@@ -1,0 +1,7 @@
+mlflow-dockerfile filter=lfs diff=lfs merge=lfs -text
+mlflow-dockerfile/model_dir/registered_model_meta filter=lfs diff=lfs merge=lfs -text
+mlflow-dockerfile/model_dir/requirements.txt filter=lfs diff=lfs merge=lfs -text
+mlflow-dockerfile/model_dir/MLmodel filter=lfs diff=lfs merge=lfs -text
+mlflow-dockerfile/model_dir/conda.yaml filter=lfs diff=lfs merge=lfs -text
+mlflow-dockerfile/model_dir/model.pkl filter=lfs diff=lfs merge=lfs -text
+mlflow-dockerfile/model_dir/python_env.yaml filter=lfs diff=lfs merge=lfs -text
