@@ -48,7 +48,10 @@ jobs:
       # FIX 1: Removed --enable-mlserver to stick with native, lightweight Uvicorn/Flask
       - name: Build docker model
         run: |
-          mlflow models build-docker --model-uri "runs:/$RUN_ID/model" --name "cc"
+          mlflow models build-docker \
+            --model-uri "runs:/$RUN_ID/model" \
+            --name "cc" \
+            --env-manager=local
 
       # FIX 2: Added Buildx to force linux/amd64 architecture compilation 
       # This ensures Render's servers don't run a slow ARM-to-Intel translation layer
